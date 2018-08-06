@@ -82,7 +82,7 @@ var app = {
     
     onDocReaderReady: function(message) {
     	// set scenarion to DocumentReader
-        DocumentReader.scenario("MrzOrBarcode");
+        DocumentReader.scenario("Mrz");
         
         // start process of scanning document
         DocumentReader.scanDocument(
