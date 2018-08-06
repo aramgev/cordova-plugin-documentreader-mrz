@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-documentreader-mrz",
+  "version": "3.4.83817",
+  "description": "Cordova plugin for identification documents reading and validation with MRZ Core",
+  "cordova": {
+    "id": "cordova-plugin-documentreader",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regulaforensics/cordova-plugin-documentreader-mrz.git"
+  },
+  "keywords": [
+    "cordova",
+    "document",
+    "reader",
+    "docreader",
+    "regula",
+    "scanner",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "mrz"
+  ],
+  "max_body_size": "1000mb",
+  "author": "RegulaForensics",
+  "license": "commercial",
+  "bugs": {
+    "url": "https://github.com/regulaforensics/cordova-plugin-documentreader-mrz/issues"
+  },
+  "homepage": "https://github.com/regulaforensics/cordova-plugin-documentreader-mrz#readme"
+}
