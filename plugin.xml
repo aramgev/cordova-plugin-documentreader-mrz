@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-documentreader" version="3.5.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-documentreader" version="4.2.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
   <name>DocumentReader</name>
   <description>Cordova plugin for identification documents reading and validation with MRZ Core</description>
   <license>commercial</license>
