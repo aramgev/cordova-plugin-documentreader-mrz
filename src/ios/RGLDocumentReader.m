@@ -16,7 +16,7 @@
     NSData *licenseData = [[command arguments] objectAtIndex:0];
 
     DocReader *docReader = [[DocReader alloc] initWithProcessParams:nil];
-    docReader.customization.videoCaptureMotionControl = NO;
+    docReader.functionality.videoCaptureMotionControl = NO;
     self.docReader = docReader;
     
     [docReader initilizeReaderWithLicense:licenseData completion:^(BOOL success, NSString * _Nullable error) {
