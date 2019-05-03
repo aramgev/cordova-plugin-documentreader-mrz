@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-documentreader-mrz",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Cordova plugin for identification documents reading and validation with MRZ Core",
   "cordova": {
     "id": "cordova-plugin-documentreader",
