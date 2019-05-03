@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/DocumentReader.h</key>
 		<data>
-		WdDR9hRMcO7EWtU2KNR+7y3C63U=
+		MhzqjgjLXwXsemy/Ehk+SL4m7X4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7SR9Yybr3RI6BK7ZMmuS3EJ5tu8=
+		JOKXomMDg4t076NdecgGbxExXdg=
 		</data>
 		<key>resource.dat</key>
 		<data>
-		pIpv72n+TdPcN5O1YK3ncHKXq1A=
+		7HcwdGCOf5rF4ksxO8mFXn03xl0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,28 +23,28 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WdDR9hRMcO7EWtU2KNR+7y3C63U=
+			MhzqjgjLXwXsemy/Ehk+SL4m7X4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nUVmNif6fpF/YlDFrATTQ9U+hquX5St+TQ45ySeAlYM=
+			e14uqPSaH79FViuTVYB06MHE/iIuH9hy/SIbtD/oyi0=
 			</data>
 		</dict>
 		<key>resource.dat</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pIpv72n+TdPcN5O1YK3ncHKXq1A=
+			7HcwdGCOf5rF4ksxO8mFXn03xl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pvjWbG+/pDpjzdaH4a3GxqpCE6KYdxwAyUpEOqCUJFQ=
+			VmjIWN3xhjGuS4OXT8RBcQNTy9X/OaZB8yE1JUiRmuk=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -75,24 +75,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -128,13 +116,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

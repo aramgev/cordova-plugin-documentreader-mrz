@@ -33,6 +33,8 @@ typedef NS_ENUM(NSInteger, DocumentReaderCommand)
     ePC_ProcMgr_StartNewDocument_ = 12105,
     ePC_ProcMgr_StartNewPage_ = 12106,
     ePC_ProcMgr_Unload_ = 12107,                              // unload ProcMgr
+    ePC_ProcMgr_ReadRfid_ = 12108,                             // read RFID
+    ePC_ProcMgr_CheckDatabase_ = 12109,                        // check database need for update
 };
 
 typedef NS_ENUM(NSInteger, DocumentReaderLight)
