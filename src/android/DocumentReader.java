@@ -120,7 +120,7 @@ public class DocumentReader extends CordovaPlugin {
                                 }
                                 resultObj.put("jsonResult", jsonArray);
 
-                                Bitmap bitmap = documentReaderResults.getGraphicFieldImageByType(eGraphicFieldType.GT_DOCUMENT_FRONT);
+                                Bitmap bitmap = documentReaderResults.getGraphicFieldImageByType(eGraphicFieldType.GF_DOCUMENT_IMAGE);
                                 if(bitmap!=null) {
                                     ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                                     bitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
