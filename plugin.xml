@@ -34,13 +34,8 @@
     </config-file>
     <framework src="src/android/documentreader.gradle" custom="true" type="gradleReference" />
     <config-file parent="/*" target="AndroidManifest.xml">
-      <uses-permission android:name="android.permission.CAMERA" />
-      <uses-feature android:name="android.hardware.camera" />
-      <uses-feature android:name="android.hardware.camera.autofocus" />
+        <uses-feature android:name="android.hardware.camera.autofocus" />
     </config-file>
-    <edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
-      <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
-    </edit-config>
     <source-file src="src/android/DocumentReader.java" target-dir="src/cordova.plugin.documentreader" />
   </platform>
 </plugin>
